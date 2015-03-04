@@ -49,7 +49,7 @@
     }];
 }
 
-- (IBAction)showPickerView{
+- (void)showPickerView{
     
     [self.view addSubview:self.pickerView];
     CGRect r = self.view.frame;
